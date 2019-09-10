@@ -21,13 +21,13 @@
     express "^4.17.1"
     helmet "^3.18.0"
 
-"@pefish/js-helper-shell@^0.0.5":
-  version "0.0.5"
-  resolved "https://registry.yarnpkg.com/@pefish/js-helper-shell/-/js-helper-shell-0.0.5.tgz#d8d923ee997b0973b8f22e61ffbba022273c6693"
-  integrity sha512-yI/G7VKlaxAZqXpm9oalfTuNhdMXUZqEnDPQbPQoWiEc1d59ROMdoWxcFCaqli9Ps/T8bc0U3KRY0kvs1mt9AQ==
+"@pefish/js-helper-shell@^0.0.6":
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/@pefish/js-helper-shell/-/js-helper-shell-0.0.6.tgz#0934acd43554c40ae11ce92ba5da92ff2f5fc95a"
+  integrity sha512-qOF5i8Fy+lleOAG00Q1SOwkYkndwX33fVNrNCf66DaTzFlExTUT3hc+NnRnT8zf6lOpvBDMpkECD1J/vJnvy0Q==
   dependencies:
     "@pefish/js-error" "^0.1.1"
-    "@pefish/js-node-assist" "^0.6.6"
+    "@pefish/js-node-assist" "^0.6.9"
     shelljs "^0.8.3"
 
 "@pefish/js-node-assist@^0.6.6":
@@ -62,13 +62,13 @@
     "@pefish/js-error" "^0.1.1"
     "@pefish/js-node-assist" "^0.6.6"
 
-"@pefish/js-util-crypto@^0.0.9":
-  version "0.0.9"
-  resolved "https://registry.yarnpkg.com/@pefish/js-util-crypto/-/js-util-crypto-0.0.9.tgz#bbc83ac72472e25fcd5741b2a5f05f16871be04f"
-  integrity sha512-9592/pzPKs4Gv+KWAWQrZLS3DCCJzy1LIEOHf7StuoGva3OgPK5rkw85nFCUWyu9iSCE65790fGOYi3ksq3aCw==
+"@pefish/js-util-crypto@^0.0.10":
+  version "0.0.10"
+  resolved "https://registry.yarnpkg.com/@pefish/js-util-crypto/-/js-util-crypto-0.0.10.tgz#3d6b70d3d7e4cc592205084e895191be4522d219"
+  integrity sha512-zW1PTzixd0oTDgdeNjV8N2QqqpxrGniql6KzJiZr3VN5n6sw1oywtH9uqQ9dhnJ0JiGDO6mKPTQhzKdTU8+NWw==
   dependencies:
     "@pefish/js-error" "^0.1.1"
-    "@pefish/js-node-assist" "^0.6.6"
+    "@pefish/js-node-assist" "^0.6.9"
     bcrypt "^3.0.6"
     crypto-js "^3.1.9-1"
 
@@ -80,12 +80,12 @@
     "@pefish/js-error" "^0.1.1"
     "@pefish/js-node-assist" "^0.6.6"
 
-"@pefish/js-util-os@^0.0.1":
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/@pefish/js-util-os/-/js-util-os-0.0.1.tgz#80ce65c50dbf6b55129ead8ba2c77fff5b24f326"
-  integrity sha512-rhBWNzTAYn6HjL+ngJSSAZMWcz4rQxL6VToNRPEJZuktqTVZ9CWPbeRdaMOQHhVVERHD+hi6n9P4lLdrF1kxQg==
+"@pefish/js-util-os@^0.0.2":
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/@pefish/js-util-os/-/js-util-os-0.0.2.tgz#c681e0b2cc610459891cfa904a22172ade6d5757"
+  integrity sha512-w9CIDsQYGNoewCvj5FGDV2B9YRy6qdZLZLmnbWBhDrSUrPBSZK4uVshN9DYj6QBV/Ryi6lwmIRE3mtX+GrrBrA==
   dependencies:
-    "@pefish/js-helper-shell" "^0.0.5"
+    "@pefish/js-helper-shell" "^0.0.6"
 
 "@pefish/js-util-starter@^0.0.7":
   version "0.0.7"
