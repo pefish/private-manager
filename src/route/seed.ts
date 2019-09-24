@@ -58,7 +58,7 @@ export default [
     method: 'post',
     apiHandler: 'getAllSeeds',
     preHandlers: {
-      apiParamsValidate: {},
+      api_params_validate: {},
     },
     params: {
       secret: {

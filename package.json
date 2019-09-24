@@ -2,11 +2,11 @@
   "name": "@pefish/private-manager",
   "version": "0.0.4",
   "dependencies": {
-    "@pefish/js-helper-httpserver": "^0.1.1",
-    "@pefish/js-node-assist": "^0.6.9",
-    "@pefish/js-util-config": "^0.0.2",
-    "@pefish/js-util-crypto": "^0.0.10",
-    "@pefish/js-util-os": "^0.0.2",
+    "@pefish/js-helper-httpserver": "^0.1.3",
+    "@pefish/js-node-assist": "^0.6.11",
+    "@pefish/js-util-config": "^0.1.0",
+    "@pefish/js-util-crypto": "^0.1.0",
+    "@pefish/js-util-os": "^0.1.0",
     "@pefish/js-util-starter": "^0.0.7",
     "prompt": "^1.0.0"
   },

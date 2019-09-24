@@ -7,13 +7,17 @@
   resolved "https://registry.yarnpkg.com/@pefish/js-error/-/js-error-0.1.1.tgz#d3e6f4a1362206aaf73afd628465364c3a581ed2"
   integrity sha512-JNLY0twr0fVEnGgrMetZsBZrStDGmHDX0dY9amDChTzVqrGEd6dvpzkR9BxINGhWgeAX6naTzI2FZn3ZwGlrsw==
 
-"@pefish/js-helper-httpserver@^0.1.1":
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/@pefish/js-helper-httpserver/-/js-helper-httpserver-0.1.1.tgz#b75c428d57ced19d3308bedad21b18beb7c16782"
-  integrity sha512-XWwdahd4ahZ2x5+2AMYVj9n16asFoBGt9wvlD/VVnytv8waUYeKkkMwo6DTXI/Snn/bvzkuM9yaUR09US6AxEA==
+"@pefish/js-error@^0.1.2":
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/@pefish/js-error/-/js-error-0.1.2.tgz#89913c01f960318fa5108e79d99c27ad90b4430f"
+  integrity sha512-JFM3pW2MhGwOwdaSfUw79DsE52oh27meYzL07B/gkX7+oF0ByVs1/BuEFMBaTk5RMnMijN0lCEuCpfZgcShO3A==
+
+"@pefish/js-helper-httpserver@^0.1.3":
+  version "0.1.3"
+  resolved "https://registry.yarnpkg.com/@pefish/js-helper-httpserver/-/js-helper-httpserver-0.1.3.tgz#e8390f1765c9a4822cba0931ab103b833d2ba8f7"
+  integrity sha512-OWuUifSRUrA8r1FK1zKgmZDO8v7vyxVTbUlpSPxbqm3x2ZJ75yPkvbaYzHWigE66ZBIrxyyQaxa5muRMIQrrDw==
   dependencies:
-    "@pefish/js-error" "^0.1.1"
-    "@pefish/js-node-assist" "^0.6.9"
+    "@pefish/js-node-assist" "^0.6.11"
     "@pefish/js-util-assert" "^0.0.3"
     "@pefish/js-util-file" "^0.0.4"
     body-parser "^1.19.0"
@@ -21,27 +25,25 @@
     express "^4.17.1"
     helmet "^3.18.0"
 
-"@pefish/js-helper-shell@^0.0.6":
-  version "0.0.6"
-  resolved "https://registry.yarnpkg.com/@pefish/js-helper-shell/-/js-helper-shell-0.0.6.tgz#0934acd43554c40ae11ce92ba5da92ff2f5fc95a"
-  integrity sha512-qOF5i8Fy+lleOAG00Q1SOwkYkndwX33fVNrNCf66DaTzFlExTUT3hc+NnRnT8zf6lOpvBDMpkECD1J/vJnvy0Q==
+"@pefish/js-helper-shell@^0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@pefish/js-helper-shell/-/js-helper-shell-0.1.0.tgz#a36cd295834066a8798a78a14a360b6d051e2f2a"
+  integrity sha512-7NNZdM37vNHtLQ8tMOlHMeapGmEPVEIdVuk3sOSHaoQydHK2M2piBqfmKqFb81jsz5pxd70m1ItmXEgY3UCiNw==
   dependencies:
-    "@pefish/js-error" "^0.1.1"
-    "@pefish/js-node-assist" "^0.6.9"
     shelljs "^0.8.3"
+
+"@pefish/js-node-assist@^0.6.11":
+  version "0.6.11"
+  resolved "https://registry.yarnpkg.com/@pefish/js-node-assist/-/js-node-assist-0.6.11.tgz#b518afc950f145cea7c87262520baf48aa95ea85"
+  integrity sha512-osPSF2A4cBiSH5rPOSymnueRiOrHL4hmGidaUhmGByvbaKopKT/XZdRf2bZDoS74oLyloXCfroD/3fJLmVESWA==
+  dependencies:
+    "@pefish/js-error" "^0.1.2"
+    bignumber.js "^8.1.1"
 
 "@pefish/js-node-assist@^0.6.6":
   version "0.6.6"
   resolved "https://registry.yarnpkg.com/@pefish/js-node-assist/-/js-node-assist-0.6.6.tgz#62673762c0dcc8ce3faf20c8bb777008fb69a084"
   integrity sha512-IvdZCVDZXi2oc25XlKEHC7bCMaTNyDmYN+wPpcRQOEpa1A4JEsscIVWbw33zNMeKWuOfVWdFdJopgxwchRHx3A==
-  dependencies:
-    "@pefish/js-error" "^0.1.1"
-    bignumber.js "^8.1.1"
-
-"@pefish/js-node-assist@^0.6.9":
-  version "0.6.9"
-  resolved "https://registry.yarnpkg.com/@pefish/js-node-assist/-/js-node-assist-0.6.9.tgz#60d50c0f82469441d4cd22b51f2645585170f414"
-  integrity sha512-acqJwvoBDVem8hqxJ7ctdPoRuuyPLXEFjPeIzQy12x+zs4ktlYqQx0p+cH61pILRM4Z0RDDeK6MZYRSUDp6lAA==
   dependencies:
     "@pefish/js-error" "^0.1.1"
     bignumber.js "^8.1.1"
@@ -54,21 +56,16 @@
     "@pefish/js-error" "^0.1.1"
     bignumber.js "^8.1.1"
 
-"@pefish/js-util-config@^0.0.2":
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/@pefish/js-util-config/-/js-util-config-0.0.2.tgz#f019727144609bb11580ad34daba1c00ad5c56cd"
-  integrity sha512-fjq2m3YQcImQtB/8MfrihWuWtXHRydxwLw2oNoQGJJaHS1rHH3qoQs9+kbnJdTSwsttoD+GXbhVbrs61l2ydCA==
-  dependencies:
-    "@pefish/js-error" "^0.1.1"
-    "@pefish/js-node-assist" "^0.6.6"
+"@pefish/js-util-config@^0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@pefish/js-util-config/-/js-util-config-0.1.0.tgz#a763dd2bd8bbb77dffad456dd7b7ff5f8573870a"
+  integrity sha512-riDo68zc2fNyRcf7eNotqsxIp9yw8AYLtu+vlX/KuXKi9XcBOPxb59TiW0CHQ+ZEULVys/+9UbI1PgbDokFQMQ==
 
-"@pefish/js-util-crypto@^0.0.10":
-  version "0.0.10"
-  resolved "https://registry.yarnpkg.com/@pefish/js-util-crypto/-/js-util-crypto-0.0.10.tgz#3d6b70d3d7e4cc592205084e895191be4522d219"
-  integrity sha512-zW1PTzixd0oTDgdeNjV8N2QqqpxrGniql6KzJiZr3VN5n6sw1oywtH9uqQ9dhnJ0JiGDO6mKPTQhzKdTU8+NWw==
+"@pefish/js-util-crypto@^0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@pefish/js-util-crypto/-/js-util-crypto-0.1.0.tgz#feb7a120dcd6741c936d3b50c41eb54969c16c09"
+  integrity sha512-OxPpC1ut+z89p8nUu/ThD/ErHyGPgHck8EDQouZJxFPPTOGDz4KvT1Odkc7/BLjTcAAHM+JsNRyr1N/CofOxZA==
   dependencies:
-    "@pefish/js-error" "^0.1.1"
-    "@pefish/js-node-assist" "^0.6.9"
     bcrypt "^3.0.6"
     crypto-js "^3.1.9-1"
 
@@ -80,12 +77,12 @@
     "@pefish/js-error" "^0.1.1"
     "@pefish/js-node-assist" "^0.6.6"
 
-"@pefish/js-util-os@^0.0.2":
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/@pefish/js-util-os/-/js-util-os-0.0.2.tgz#c681e0b2cc610459891cfa904a22172ade6d5757"
-  integrity sha512-w9CIDsQYGNoewCvj5FGDV2B9YRy6qdZLZLmnbWBhDrSUrPBSZK4uVshN9DYj6QBV/Ryi6lwmIRE3mtX+GrrBrA==
+"@pefish/js-util-os@^0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@pefish/js-util-os/-/js-util-os-0.1.0.tgz#bdfd0d829bb419b0f695bc281e1e983fe3608ac8"
+  integrity sha512-m+mjpX7dYFV9bCrujCs2/w6FStQVPp+6fWnnrtouzLdzczr172Na+ncodoh6sBcaedjYF1NN9g8DIUVqGjEEww==
   dependencies:
-    "@pefish/js-helper-shell" "^0.0.6"
+    "@pefish/js-helper-shell" "^0.1.0"
 
 "@pefish/js-util-starter@^0.0.7":
   version "0.0.7"
