@@ -6,7 +6,7 @@ export default [
     method: 'post',
     apiHandler: 'getSeed',
     preHandlers: {
-      apiParamsValidate: {},
+      api_params_validate: {},
     },
     params: {
       currency: {
@@ -32,7 +32,7 @@ export default [
     method: 'post',
     apiHandler: 'getSeedV1',
     preHandlers: {
-      apiParamsValidate: {},
+      api_params_validate: {},
     },
     params: {
       series: {
