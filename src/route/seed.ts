@@ -2,35 +2,9 @@
 export default [
   {
     desc: '获取种子',
-    path: '/seed/get_seed',
-    method: 'post',
-    apiHandler: 'getSeed',
-    preHandlers: {
-      api_params_validate: {},
-    },
-    params: {
-      currency: {
-        desc: '货币名',
-        policies: [
-          ['notEmpty']
-        ]
-      },
-      secret: {
-        desc: '解密密钥',
-        policies: [
-          ['notEmpty']
-        ],
-      },
-    },
-    expects: [
-
-    ]
-  },
-  {
-    desc: '获取种子',
     path: '/v1/seed/get_seed',
     method: 'post',
-    apiHandler: 'getSeedV1',
+    apiHandler: 'getSeed',
     preHandlers: {
       api_params_validate: {},
     },
