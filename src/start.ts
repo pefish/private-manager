@@ -15,6 +15,7 @@ declare global {
     }
   }
 }
+global.logger = console
 
 function getArgsFromConsole(schema) {
   return new Promise(function (resolve, reject) {
