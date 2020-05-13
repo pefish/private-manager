@@ -15,12 +15,6 @@ export default [
           ['notEmpty']
         ]
       },
-      secret: {
-        desc: '解密密钥',
-        policies: [
-          ['notEmpty']
-        ],
-      },
     },
     expects: [
 
@@ -35,12 +29,7 @@ export default [
       api_params_validate: {},
     },
     params: {
-      secret: {
-        desc: '解密密钥',
-        policies: [
-          ['notEmpty']
-        ],
-      },
+      
     },
     expects: [
 
