@@ -17,7 +17,7 @@ declare global {
 }
 global.logger = console
 
-const version = "v0.0.1"
+const version = require("../package.json").version
 
 function getArgsFromConsole(schema) {
   return new Promise(function (resolve, reject) {
