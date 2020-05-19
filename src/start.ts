@@ -17,6 +17,8 @@ declare global {
 }
 global.logger = console
 
+const version = "v0.0.1"
+
 function getArgsFromConsole(schema) {
   return new Promise(function (resolve, reject) {
     prompt.get(schema, function (err, result) {
@@ -39,6 +41,8 @@ Starter.startAsync(async () => {
   if (!host || !port) {
     throw new ErrorHelper(`请指定host以及port环境变量`)
   }
+
+  console.log(`version: ${version}`)
 
   const schema = {
     properties: {
